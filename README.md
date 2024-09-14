@@ -35,7 +35,6 @@ npm run build
 - Redux
 - Zustand
 - Mobx
-- XState
 
 ## Тема урока
 
@@ -45,7 +44,6 @@ npm run build
 - Redux (имутабельный Store)
 - Zustand (имутабельный Store)
 - MobX (мутабельный Store)
-- XState (машинное состояние)
 
 ## Структура
 
