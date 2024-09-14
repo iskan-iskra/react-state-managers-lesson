@@ -20,14 +20,14 @@ export function useAppTodoController() {
 
   const changeTodoStatus = useCallback((reqId) => {
     setTodoList((prev) =>
-      prev.map((todo) => {
+      prev.map((todo) =>
         todo.id === reqId
           ? {
               ...todo,
               status: !todo.status,
             }
-          : todo;
-      })
+          : todo
+      )
     );
   }, []);
 
