@@ -1,4 +1,3 @@
-// Хранилище состояния
 const createAppCustomStore = () => {
   let state = { todoList: [] };
   const listeners = new Set();
@@ -17,7 +16,6 @@ const createAppCustomStore = () => {
     listeners.forEach((listener) => listener());
   };
 
-  // Объект методов, предоставляющий публичный API
   const methods = {
     addTodo: (title) => {
       setState({

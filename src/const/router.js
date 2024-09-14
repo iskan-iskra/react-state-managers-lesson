@@ -1,5 +1,6 @@
 export const APP_ROUTER_PATH = {
   MAIN: "/main",
+
   ERROR: "/404",
 
   BASIC: "/basic",
